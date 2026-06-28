@@ -4,111 +4,145 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Arukah MissionOS | Future Compassion Technology</title>
-  <meta name="description" content="Arukah MissionOS is the future compassion technology platform for managing missions, privacy, verification, and impact." />
+  <meta name="description" content="Arukah MissionOS is the future platform for organized compassion, private pledges, verified needs, and measurable impact." />
   <link rel="stylesheet" href="./styles.css" />
 </head>
 <body>
+  <a class="skip" href="#main">Skip to Content</a>
+
+  <header class="topbar">
+    <div class="container topbar-inner">
+      <div class="info-for">
+        <span>Built for...</span>
+        <a href="#users">Individuals</a>
+        <a href="#users">Families</a>
+        <a href="#users">Organizations</a>
+        <a href="#users">CSR Teams</a>
+      </div>
+      <a class="toplink" href="index.html">Arukah Missions</a>
+    </div>
+  </header>
+
   <header class="site-header">
-    <nav class="nav container">
-      <a href="index.html" class="brand">
-        <span class="brand-mark">AM</span>
+    <nav class="container nav">
+      <a class="brand" href="missionos.html">
+        <span class="brand-symbol">OS</span>
         <span><strong>Arukah MissionOS</strong><small>Future Compassion Technology</small></span>
       </a>
-      <button class="menu-button" id="menuButton">☰</button>
+
+      <button class="menu-button" id="menuButton" aria-label="Open menu">☰</button>
+
       <div class="nav-links" id="navLinks">
-        <a href="index.html">Arukah Missions</a>
+        <a href="index.html">Missions</a>
         <a href="#vision">Vision</a>
         <a href="#users">Who It Serves</a>
         <a href="#features">Features</a>
         <a href="#roadmap">Roadmap</a>
-        <a class="nav-cta" href="#interest">Join Interest List</a>
+        <a class="donate-button" href="#interest">Join Interest List</a>
       </div>
     </nav>
   </header>
 
-  <main>
-    <section class="hero missionos-hero">
-      <div class="container hero-grid">
-        <div>
-          <p class="eyebrow">MissionOS by Arukah</p>
-          <h1>The operating system for organized compassion.</h1>
-          <p class="hero-text">
-            Arukah MissionOS is a future AI-enabled platform designed to help individuals, families,
-            religious organizations, social groups, NGOs, and CSR teams manage missions with privacy,
-            verification, fulfillment, and measurable impact.
-          </p>
-          <div class="actions">
-            <a href="#interest" class="button">Join Early Interest List</a>
-            <a href="index.html" class="button secondary">Back to Arukah Missions</a>
+  <main id="main">
+    <section class="hero os-hero">
+      <div class="hero-overlay"></div>
+      <div class="container hero-content">
+        <p class="eyebrow light">MissionOS by Arukah</p>
+        <h1>The operating system for organized compassion.</h1>
+        <p>
+          A future AI-enabled platform to help individuals, families, religious groups, social organizations,
+          NGOs, and CSR teams manage missions from pledge to verified impact.
+        </p>
+        <div class="hero-actions">
+          <a href="#interest" class="button primary">Join Early Interest List</a>
+          <a href="index.html" class="button ghost">Back to Arukah Missions</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="intro-block" id="vision">
+      <div class="container two-col">
+        <div class="media-card os-card">
+          <div class="image-placeholder">
+            <span>MissionOS</span>
           </div>
         </div>
-        <aside class="hero-card">
-          <p class="card-label">Future Workflow</p>
-          <h2>Pledge → Verify → Fulfill → Measure</h2>
-          <p>MissionOS helps mission-driven people and organizations manage compassion with structure and trust.</p>
-          <div class="card-status">Coming Soon</div>
-        </aside>
-      </div>
-    </section>
-
-    <section class="section" id="vision">
-      <div class="container narrow">
-        <p class="eyebrow">Vision</p>
-        <h2>From good intention to completed mission.</h2>
-        <p>
-          Many people want to help others but lack a trusted system to identify needs, verify authenticity,
-          protect privacy, work with providers, track payments, and measure outcomes.
-        </p>
-        <p>
-          MissionOS is designed to turn personal compassion into organized, accountable, and repeatable impact.
-        </p>
-      </div>
-    </section>
-
-    <section class="section soft" id="users">
-      <div class="container">
-        <p class="eyebrow">Who it serves</p>
-        <h2>Built for every mission-driven giver and organization</h2>
-        <div class="cards four">
-          <article class="card"><h3>Individuals</h3><p>Create a personal mission and track verified impact.</p></article>
-          <article class="card"><h3>Families</h3><p>Build a family culture of organized generosity and legacy.</p></article>
-          <article class="card"><h3>Religious Groups</h3><p>Manage outreach missions with humility, accountability, and privacy.</p></article>
-          <article class="card"><h3>Social Organizations</h3><p>Coordinate causes, volunteers, providers, and mission outcomes.</p></article>
-          <article class="card"><h3>Charitable Trusts</h3><p>Run verified support workflows and manage impact reporting.</p></article>
-          <article class="card"><h3>NGOs</h3><p>Submit verified cases and coordinate transparent fulfillment.</p></article>
-          <article class="card"><h3>CSR Teams</h3><p>Manage corporate missions, approvals, and reporting.</p></article>
-          <article class="card"><h3>Providers</h3><p>Support verified needs through schools, hospitals, therapy centers, and vendors.</p></article>
+        <div>
+          <p class="eyebrow">From intention to completed mission</p>
+          <h2>Good intentions need a trusted system.</h2>
+          <p>
+            Many people want to help others but lack a structured way to identify genuine needs,
+            protect privacy, work with providers, track fulfillment, and measure outcomes.
+          </p>
+          <p>
+            MissionOS is designed to turn personal compassion into organized, accountable,
+            and repeatable impact.
+          </p>
         </div>
       </div>
     </section>
 
-    <section class="section" id="features">
+    <section class="impact-band">
       <div class="container">
-        <p class="eyebrow">Core features</p>
-        <h2>What MissionOS will manage</h2>
-        <div class="feature-grid">
-          <div><h3>Mission Management</h3><p>Create missions, set goals, define budgets, choose categories, and track progress.</p></div>
-          <div><h3>Mission Pledge</h3><p>Support monthly or yearly pledge commitments with private Mission Identities.</p></div>
-          <div><h3>Need Verification</h3><p>Manage submissions, documents, risk scores, duplicate checks, and approvals.</p></div>
-          <div><h3>Provider Network</h3><p>Work with schools, hospitals, pharmacies, therapy centers, and vendors.</p></div>
-          <div><h3>Direct Fulfillment</h3><p>Track provider payments, invoices, receipts, and fulfillment evidence.</p></div>
-          <div><h3>Privacy Controls</h3><p>Protect donor identity, recipient dignity, and access using role-based permissions.</p></div>
-          <div><h3>Impact Reporting</h3><p>Generate mission updates, completed case reports, and impact dashboards.</p></div>
-          <div><h3>AI Assistance</h3><p>Assist with document completeness, verification signals, matching, and summaries.</p></div>
+        <p class="eyebrow light">Future platform model</p>
+        <h2>Pledge. Verify. Fulfill. Measure.</h2>
+        <div class="metrics">
+          <div><strong>RBAC</strong><span>role-based privacy controls</span></div>
+          <div><strong>AI</strong><span>verification assistance</span></div>
+          <div><strong>SaaS</strong><span>multi-tenant architecture</span></div>
+          <div><strong>Impact</strong><span>mission reporting</span></div>
         </div>
       </div>
     </section>
 
-    <section class="section roadmap" id="roadmap">
+    <section class="section" id="users">
       <div class="container">
-        <p class="eyebrow">Roadmap</p>
-        <h2>Planned evolution</h2>
-        <div class="steps">
-          <div><span>1</span><h3>Internal Platform</h3><p>Manage Arukah's verified needs, providers, payments, and impact reports.</p></div>
-          <div><span>2</span><h3>Pledge Portal</h3><p>Allow individuals and families to create private Mission Identities and pledges.</p></div>
-          <div><span>3</span><h3>Mission Dashboard</h3><p>Track categories, pledge commitments, cases, and impact history.</p></div>
-          <div><span>4</span><h3>Organization Portal</h3><p>Enable religious groups, social organizations, trusts, NGOs, and CSR teams.</p></div>
-          <div><span>5</span><h3>AI MissionOS</h3><p>Automate verification assistance, matching, fraud signals, and reporting.</p></div>
+        <div class="section-head">
+          <p class="eyebrow">Who it serves</p>
+          <h2>Built for every mission-driven giver and organization</h2>
+        </div>
+
+        <div class="priority-grid">
+          <a class="priority-card" href="#interest"><span>User</span><h3>Individuals & Families</h3><p>Create personal missions, pledge privately, and track impact.</p></a>
+          <a class="priority-card" href="#interest"><span>User</span><h3>Religious Organizations</h3><p>Manage outreach missions with humility, privacy, and accountability.</p></a>
+          <a class="priority-card" href="#interest"><span>User</span><h3>Social Organizations</h3><p>Coordinate causes, volunteers, providers, and mission outcomes.</p></a>
+          <a class="priority-card" href="#interest"><span>User</span><h3>CSR Teams</h3><p>Track mission budgets, approvals, direct fulfillment, and reports.</p></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section priorities" id="features">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow">Platform capabilities</p>
+          <h2>What MissionOS will manage</h2>
+        </div>
+        <div class="initiative-list">
+          <article><p>Capability</p><h3>Mission Management</h3><span>Create missions, set categories, define goals, and manage pledge commitments.</span></article>
+          <article><p>Capability</p><h3>Need Verification</h3><span>Manage submissions, documents, duplicate checks, risk scoring, and approval workflows.</span></article>
+          <article><p>Capability</p><h3>Provider Fulfillment</h3><span>Work with schools, hospitals, therapy centers, vendors, and service partners.</span></article>
+          <article><p>Capability</p><h3>Privacy Controls</h3><span>Protect donor identity and recipient dignity through role-based access and consent controls.</span></article>
+          <article><p>Capability</p><h3>Impact Reporting</h3><span>Generate private updates, public aggregate metrics, and mission outcome reports.</span></article>
+          <article><p>Capability</p><h3>AI Assistance</h3><span>Assist with document completeness, verification signals, matching, and impact summaries.</span></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="feature-story" id="roadmap">
+      <div class="container story-grid">
+        <div>
+          <p class="eyebrow light">Roadmap</p>
+          <h2>Built first for Arukah, then opened to mission-driven communities.</h2>
+          <p>
+            MissionOS should begin as Arukah's internal operating platform. Once the workflow is proven,
+            it can expand to individuals, families, churches, social organizations, NGOs, and CSR teams.
+          </p>
+        </div>
+        <div class="pledge-wall">
+          <div class="pledge-row"><span><b>Phase 1</b><small>Internal case management</small></span><strong>MVP</strong></div>
+          <div class="pledge-row"><span><b>Phase 2</b><small>Mission pledge portal</small></span><strong>Beta</strong></div>
+          <div class="pledge-row"><span><b>Phase 3</b><small>Donor mission dashboard</small></span><strong>Launch</strong></div>
+          <div class="pledge-row"><span><b>Phase 4</b><small>Multi-tenant organization platform</small></span><strong>SaaS</strong></div>
         </div>
       </div>
     </section>
@@ -116,9 +150,9 @@
     <section class="section contact-section" id="interest">
       <div class="container contact-grid">
         <div>
-          <p class="eyebrow">Early access</p>
+          <p class="eyebrow">Early interest</p>
           <h2>Join the MissionOS interest list</h2>
-          <p>This demo form can later connect to Google Forms, Airtable, Formspree, or a real MissionOS backend.</p>
+          <p>This demo form can later connect to Google Forms, Airtable, Formspree, or the MissionOS backend.</p>
         </div>
         <form class="form" id="contactForm">
           <label>Name<input type="text" placeholder="Your name" required /></label>
@@ -135,7 +169,7 @@
             </select>
           </label>
           <label>Message<textarea placeholder="Tell us how you would like to use MissionOS..." required></textarea></label>
-          <button class="button" type="submit">Join Interest List</button>
+          <button class="button primary" type="submit">Join Interest List</button>
           <p id="formMessage" class="form-message"></p>
         </form>
       </div>
@@ -143,16 +177,26 @@
   </main>
 
   <footer class="footer">
-    <div class="container footer-grid">
-      <div><strong>Arukah MissionOS</strong><p>The future compassion technology platform by Arukah.</p></div>
+    <div class="container footer-main">
+      <div>
+        <a class="brand footer-brand" href="missionos.html">
+          <span class="brand-symbol">OS</span>
+          <span><strong>Arukah MissionOS</strong><small>Future Compassion Technology</small></span>
+        </a>
+        <p>The operating system for organized compassion.</p>
+      </div>
       <div class="footer-links">
         <a href="index.html">Arukah Missions</a>
+        <a href="#vision">Vision</a>
         <a href="#features">Features</a>
         <a href="#roadmap">Roadmap</a>
         <a href="#interest">Interest List</a>
       </div>
     </div>
-    <div class="container footer-bottom"><small>© 2026 Arukah Missions. All rights reserved.</small></div>
+    <div class="container footer-bottom">
+      <small>© 2026 Arukah Missions. All rights reserved.</small>
+      <small>MissionOS is a future product concept by Arukah.</small>
+    </div>
   </footer>
 
   <script src="./script.js"></script>

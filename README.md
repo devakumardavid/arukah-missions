@@ -1,10 +1,10 @@
-# Arukah Missions Website v2
+# Arukah Missions Website - Conservation Fund Inspired Layout
 
-GitHub Pages-ready static website.
+This is a GitHub Pages-ready static website inspired by the structure and nonprofit storytelling style of The Conservation Fund website, adapted for Arukah Missions.
 
 ## Files
 
-Upload these files to the repository root:
+Upload these files to your GitHub repository root:
 
 - index.html
 - missionos.html
@@ -12,30 +12,31 @@ Upload these files to the repository root:
 - script.js
 - README.md
 
-## GitHub Pages
+## GitHub Pages Setup
 
-Repository name example:
+1. Create or open your repository, for example:
+   arukah-missions
 
-arukah-missions
+2. Upload all files directly to the repository root.
 
-Pages URL:
+3. Go to:
+   Settings > Pages
 
+4. Use:
+   Source: Deploy from a branch
+   Branch: main
+   Folder: /root
+
+5. Save.
+
+Public website:
 https://devakumardavid.github.io/arukah-missions/
 
-MissionOS URL:
-
+MissionOS page:
 https://devakumardavid.github.io/arukah-missions/missionos.html
-
-## Setup
-
-1. Create a public GitHub repo.
-2. Upload all files directly to the root.
-3. Go to Settings > Pages.
-4. Source: Deploy from a branch.
-5. Branch: main.
-6. Folder: /root.
-7. Save.
 
 ## Notes
 
-The forms are demo-only. Connect them later to Google Forms, Airtable, Formspree, Netlify Forms, or a backend.
+- Forms are demo-only.
+- Replace placeholder visual blocks with real photos or illustrations later.
+- The design uses original copy and branding for Arukah Missions.

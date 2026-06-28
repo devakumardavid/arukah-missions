@@ -3,179 +3,247 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Arukah Missions | Organized Compassion</title>
-  <meta name="description" content="Arukah Missions inspires personal missions of compassion with privacy, verified needs, and trusted impact." />
+  <title>Arukah Missions | Organized Compassion. Private Giving. Trusted Impact.</title>
+  <meta name="description" content="Arukah Missions inspires personal missions of compassion through private pledges, verified needs, and recipient dignity." />
   <link rel="stylesheet" href="./styles.css" />
 </head>
 <body>
-  <header class="site-header">
-    <nav class="nav container">
-      <a href="index.html" class="brand">
-        <span class="brand-mark">AM</span>
-        <span><strong>Arukah Missions</strong><small>Healing • Hope • Restoration</small></span>
-      </a>
-      <button class="menu-button" id="menuButton">☰</button>
-      <div class="nav-links" id="navLinks">
-        <a href="#mission">Personal Mission</a>
-        <a href="#pledge">Mission Pledge</a>
-        <a href="#how">How It Works</a>
-        <a href="#privacy">Privacy</a>
+  <a class="skip" href="#main">Skip to Content</a>
+
+  <header class="topbar">
+    <div class="container topbar-inner">
+      <div class="info-for">
+        <span>Info for...</span>
+        <a href="#pledge">Individuals</a>
+        <a href="#pledge">Families</a>
+        <a href="#partners">Organizations</a>
         <a href="missionos.html">MissionOS</a>
-        <a class="nav-cta" href="#contact">Start My Mission</a>
+      </div>
+      <a class="toplink" href="#contact">Start a Mission</a>
+    </div>
+  </header>
+
+  <header class="site-header">
+    <nav class="container nav">
+      <a class="brand" href="index.html">
+        <span class="brand-symbol">AM</span>
+        <span>
+          <strong>Arukah Missions</strong>
+          <small>Healing • Hope • Restoration</small>
+        </span>
+      </a>
+
+      <button class="menu-button" id="menuButton" aria-label="Open menu">☰</button>
+
+      <div class="nav-links" id="navLinks">
+        <a href="#about">About Us</a>
+        <a href="#approach">Our Approach</a>
+        <a href="#priorities">Our Priorities</a>
+        <a href="#impact">Impact</a>
+        <a href="#involved">Get Involved</a>
+        <a href="missionos.html">MissionOS</a>
+        <a class="donate-button" href="#pledge">Take the Pledge</a>
       </div>
     </nav>
   </header>
 
-  <main>
-    <section class="hero" id="home">
-      <div class="container hero-grid">
-        <div>
-          <p class="eyebrow">Organized compassion for India and beyond</p>
-          <h1>Everyone can have a personal mission.</h1>
-          <p class="hero-text">
-            Arukah Missions inspires individuals and families to commit to a personal mission of compassion,
-            support verified needs, protect donor privacy, and help recipients with dignity.
-          </p>
-          <div class="actions">
-            <a href="#pledge" class="button">Take the Mission Pledge</a>
-            <a href="missionos.html" class="button secondary">Explore Arukah MissionOS</a>
-          </div>
-          <div class="trust-points">
-            <span>Private Donor Identity</span>
-            <span>Verified Needs</span>
-            <span>Recipient Dignity</span>
-          </div>
-        </div>
-
-        <aside class="hero-card">
-          <p class="card-label">Mission Pledge Example</p>
-          <h2>Quiet River</h2>
-          <p class="muted">Education Mission</p>
-          <div class="pledge-amount">₹2,000 / month</div>
-          <p>A private Mission Identity that inspires others without revealing the person behind the pledge.</p>
-          <div class="card-status">Active Mission Partner</div>
-        </aside>
-      </div>
-    </section>
-
-    <section class="section" id="mission">
-      <div class="container narrow">
-        <p class="eyebrow">The Arukah philosophy</p>
-        <h2>Compassion should be intentional, humble, and measurable.</h2>
+  <main id="main">
+    <section class="hero">
+      <div class="hero-overlay"></div>
+      <div class="container hero-content">
+        <p class="eyebrow light">Organized compassion. Private giving. Trusted impact.</p>
+        <h1>When compassion is organized, lives are restored.</h1>
         <p>
-          Arukah Missions exists to create more personal missions of support. Every individual and family
-          can set aside a monthly or yearly pledge and commit to helping genuine needs in a systematic,
-          organized way.
+          Arukah Missions inspires individuals and families to create personal missions,
+          support verified needs, protect donor privacy, and serve recipients with dignity.
         </p>
-        <p>
-          Our goal is not simply to raise funds for Arukah. Our goal is to inspire more people to create
-          and manage their own missions of compassion.
-        </p>
-      </div>
-    </section>
-
-    <section class="section soft">
-      <div class="container">
-        <p class="eyebrow">Three pillars</p>
-        <h2>What Arukah Missions provides</h2>
-        <div class="cards three">
-          <article class="card"><div class="icon">1</div><h3>Personal Mission Support</h3><p>Founder-led support for verified needs using trusted local partners and direct fulfillment.</p></article>
-          <article class="card"><div class="icon">2</div><h3>Mission Pledge Movement</h3><p>Individuals and families take monthly or yearly pledges that inspire others to begin their own personal mission.</p></article>
-          <article class="card"><div class="icon">3</div><h3>Future Compassion Technology</h3><p>Arukah MissionOS will help donors and organizations manage missions with structure, privacy, and measurable impact.</p></article>
+        <div class="hero-actions">
+          <a href="#pledge" class="button primary">Take the Mission Pledge</a>
+          <a href="#approach" class="button ghost">Explore Our Work</a>
         </div>
       </div>
     </section>
 
-    <section class="section pledge-section" id="pledge">
-      <div class="container split">
+    <section class="intro-block" id="about">
+      <div class="container two-col">
+        <div class="media-card">
+          <div class="image-placeholder">
+            <span>Arukah</span>
+          </div>
+        </div>
         <div>
-          <p class="eyebrow">Mission Pledge Wall</p>
-          <h2>Inspire others without revealing yourself.</h2>
+          <p class="eyebrow">Advancing compassion and dignity — together</p>
+          <h2>We believe everyone can have a personal mission.</h2>
           <p>
-            Every Mission Partner receives a private Mission Identity. The public pledge wall can display
-            mission category and pledge amount while keeping the donor's real identity private.
+            Arukah Missions was created to help people move from good intentions to organized,
+            consistent, and measurable compassion. Our goal is not simply to raise funds for Arukah.
+            Our goal is to create more personal missions of support.
           </p>
-          <a href="#contact" class="button">Start My Mission</a>
-        </div>
-        <div class="pledge-wall">
-          <div class="pledge-row"><span><strong>Quiet River</strong><small>Education Mission</small></span><b>₹2,000 / month</b></div>
-          <div class="pledge-row"><span><strong>Hidden Blessing</strong><small>Healthcare Mission</small></span><b>₹5,000 / month</b></div>
-          <div class="pledge-row"><span><strong>Gentle Hands</strong><small>Special Needs Mission</small></span><b>₹1,000 / month</b></div>
-          <div class="pledge-row"><span><strong>Morning Light</strong><small>Community Mission</small></span><b>₹10,000 / year</b></div>
+          <p>
+            A personal mission can begin with a monthly or yearly pledge. Over time, that pledge
+            becomes a habit of purposeful generosity that helps genuine needs while protecting the
+            identity of those who give and the dignity of those who receive.
+          </p>
+          <a href="#approach" class="text-link">Learn about our approach</a>
         </div>
       </div>
     </section>
 
-    <section class="section" id="how">
+    <section class="impact-band" id="impact">
       <div class="container">
-        <p class="eyebrow">How it works</p>
-        <h2>From pledge to fulfilled mission</h2>
-        <div class="steps">
-          <div><span>01</span><h3>Take a Mission Pledge</h3><p>Choose your mission category and monthly or yearly pledge commitment.</p></div>
-          <div><span>02</span><h3>Receive Mission Identity</h3><p>Your pledge is represented publicly by a private pseudo name, not your real name.</p></div>
-          <div><span>03</span><h3>Support Verified Needs</h3><p>Needs are reviewed and verified before support is recommended.</p></div>
-          <div><span>04</span><h3>Fulfill with Dignity</h3><p>Support is delivered responsibly through trusted providers wherever possible.</p></div>
-          <div><span>05</span><h3>Measure Impact</h3><p>Impact is tracked without exposing donor identity or recipient dignity.</p></div>
+        <p class="eyebrow light">Our Impact Model</p>
+        <h2>Every mission should be trusted, private, and measurable.</h2>
+        <div class="metrics">
+          <div><strong>100%</strong><span>privacy-first mission identity</span></div>
+          <div><strong>3</strong><span>pillars of mission support</span></div>
+          <div><strong>8</strong><span>initial cause categories</span></div>
+          <div><strong>1</strong><span>future MissionOS platform</span></div>
         </div>
       </div>
     </section>
 
-    <section class="section programs">
+    <section class="section" id="approach">
       <div class="container">
-        <p class="eyebrow">Mission categories</p>
-        <h2>Personal missions can support many kinds of needs</h2>
-        <div class="cards four">
-          <article class="card"><h3>Education</h3><p>School fees, books, uniforms, tutoring, and learning support.</p></article>
-          <article class="card"><h3>Healthcare</h3><p>Medicines, medical care, treatment, and recovery support.</p></article>
-          <article class="card"><h3>Special Needs</h3><p>Therapy, assistive devices, autism support, and developmental care.</p></article>
-          <article class="card"><h3>Livelihood</h3><p>Tools, vocational training, equipment, and income restoration.</p></article>
-          <article class="card"><h3>Women & Family</h3><p>Family stability, emergency help, safety, and empowerment support.</p></article>
-          <article class="card"><h3>Elder Care</h3><p>Medicines, mobility aids, nutrition, and essential care.</p></article>
-          <article class="card"><h3>Emergency Relief</h3><p>Crisis response, urgent family needs, and disaster recovery.</p></article>
-          <article class="card"><h3>Community Missions</h3><p>Local projects that create visible and measurable impact.</p></article>
+        <div class="section-head">
+          <p class="eyebrow">Our Approach</p>
+          <h2>Compassion with structure</h2>
+          <p>
+            We follow a practical model that helps turn private generosity into trusted outcomes.
+          </p>
+        </div>
+
+        <div class="approach-grid">
+          <article>
+            <span>01</span>
+            <h3>Inspire</h3>
+            <p>Invite individuals and families to make a personal mission pledge.</p>
+          </article>
+          <article>
+            <span>02</span>
+            <h3>Protect</h3>
+            <p>Represent donors through Mission Identities rather than public names.</p>
+          </article>
+          <article>
+            <span>03</span>
+            <h3>Verify</h3>
+            <p>Review needs, documents, provider information, and support requirements.</p>
+          </article>
+          <article>
+            <span>04</span>
+            <h3>Fulfill</h3>
+            <p>Support recipients with dignity, preferably through trusted providers.</p>
+          </article>
+          <article>
+            <span>05</span>
+            <h3>Measure</h3>
+            <p>Track mission outcomes without exposing private identities.</p>
+          </article>
         </div>
       </div>
     </section>
 
-    <section class="section privacy" id="privacy">
-      <div class="container split">
+    <section class="section priorities" id="priorities">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow">Our Priorities</p>
+          <h2>Personal missions can restore hope in many ways</h2>
+          <p>
+            Arukah Missions focuses on needs where compassionate support can create direct,
+            practical, and meaningful impact.
+          </p>
+        </div>
+
+        <div class="priority-grid">
+          <a class="priority-card" href="#contact"><span>Priority</span><h3>Education Support</h3><p>School fees, books, uniforms, tutoring, and learning resources.</p></a>
+          <a class="priority-card" href="#contact"><span>Priority</span><h3>Healthcare Support</h3><p>Medicines, treatment, recovery support, and medical essentials.</p></a>
+          <a class="priority-card" href="#contact"><span>Priority</span><h3>Special Needs Support</h3><p>Therapy, assistive devices, autism support, and developmental care.</p></a>
+          <a class="priority-card" href="#contact"><span>Priority</span><h3>Livelihood Restoration</h3><p>Tools, vocational training, equipment, and income restoration.</p></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="feature-story" id="pledge">
+      <div class="container story-grid">
         <div>
-          <p class="eyebrow">Privacy by design</p>
+          <p class="eyebrow light">Mission Pledge Wall</p>
           <h2>Let the mission be known. Let the giver remain humble.</h2>
           <p>
-            Arukah Missions protects donor identity and recipient dignity. Public impact should inspire others,
-            but it should never become a stage for recognition or exposure.
+            Every Mission Partner receives a private Mission Identity. The public pledge wall can
+            display the mission category and pledge amount while keeping the donor's real identity private.
           </p>
+          <a href="#contact" class="button light-button">Start My Mission</a>
         </div>
-        <div class="privacy-list">
-          <div><h3>Private Donor Identity</h3><p>Mission Partners are displayed using a Mission Identity instead of their real name.</p></div>
-          <div><h3>Recipient Dignity</h3><p>Recipient details are shared only when required for verification, fulfillment, and support.</p></div>
-          <div><h3>Consent-Based Stories</h3><p>Stories, images, and testimonials are shared only with consent and can be anonymized.</p></div>
+
+        <div class="pledge-wall">
+          <div class="pledge-row"><span><b>Quiet River</b><small>Education Mission</small></span><strong>₹2,000 / month</strong></div>
+          <div class="pledge-row"><span><b>Hidden Blessing</b><small>Healthcare Mission</small></span><strong>₹5,000 / month</strong></div>
+          <div class="pledge-row"><span><b>Gentle Hands</b><small>Special Needs Mission</small></span><strong>₹1,000 / month</strong></div>
+          <div class="pledge-row"><span><b>Morning Light</b><small>Community Mission</small></span><strong>₹10,000 / year</strong></div>
         </div>
       </div>
     </section>
 
-    <section class="section missionos-preview">
-      <div class="container split">
-        <div>
-          <p class="eyebrow">Coming next</p>
-          <h2>Arukah MissionOS</h2>
-          <p>
-            MissionOS is the future compassion technology platform that will help individuals, families,
-            religious organizations, social groups, NGOs, and CSR teams manage missions from pledge to verified impact.
-          </p>
-          <a href="missionos.html" class="button light">View MissionOS Vision</a>
+    <section class="section initiatives">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow">Initiatives</p>
+          <h2>Building a movement of personal missions</h2>
         </div>
-        <div class="missionos-card">
-          <h3>MissionOS will help you:</h3>
-          <ul>
-            <li>Create and manage personal missions</li>
-            <li>Track pledge commitments</li>
-            <li>Review verified needs</li>
-            <li>Work with trusted providers</li>
-            <li>Protect donor and recipient privacy</li>
-            <li>Measure mission impact</li>
-          </ul>
+
+        <div class="initiative-list">
+          <article>
+            <p>Initiative</p>
+            <h3>Personal Mission Support</h3>
+            <span>Founder-led support for verified needs using trusted local partners and practical fulfillment.</span>
+          </article>
+          <article>
+            <p>Initiative</p>
+            <h3>Mission Pledge Movement</h3>
+            <span>Inspiring individuals and families to commit monthly or yearly to organized compassion.</span>
+          </article>
+          <article>
+            <p>Initiative</p>
+            <h3>Privacy by Design</h3>
+            <span>Protecting donor identity and recipient dignity while still measuring impact.</span>
+          </article>
+          <article>
+            <p>Initiative</p>
+            <h3>Arukah MissionOS</h3>
+            <span>A future technology platform for managing missions from pledge to verified impact.</span>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="newsletter" id="involved">
+      <div class="container newsletter-grid">
+        <div>
+          <p class="eyebrow light">Get involved</p>
+          <h2>Start a personal mission of compassion.</h2>
+          <p>
+            Take the pledge, submit a need, volunteer, become a provider partner, or join the MissionOS interest list.
+          </p>
+        </div>
+        <div class="action-stack">
+          <a href="#contact" class="button light-button">Take the Mission Pledge</a>
+          <a href="missionos.html" class="button outline-light">Explore MissionOS</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section partners" id="partners">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow">Partnerships</p>
+          <h2>Trusted support requires trusted partners</h2>
+        </div>
+        <div class="partner-strip">
+          <span>Schools</span>
+          <span>Hospitals</span>
+          <span>Therapy Centers</span>
+          <span>Community Groups</span>
+          <span>Faith Communities</span>
+          <span>CSR Teams</span>
         </div>
       </div>
     </section>
@@ -183,9 +251,12 @@
     <section class="section contact-section" id="contact">
       <div class="container contact-grid">
         <div>
-          <p class="eyebrow">Start fresh</p>
-          <h2>Start your personal mission</h2>
-          <p>This starter form is ready for GitHub Pages. Later, connect it to Google Forms, Airtable, Formspree, or MissionOS.</p>
+          <p class="eyebrow">Contact</p>
+          <h2>Begin the conversation</h2>
+          <p>
+            This GitHub Pages starter form is demo-only. It can later connect to Google Forms,
+            Airtable, Formspree, or the future MissionOS backend.
+          </p>
         </div>
         <form class="form" id="contactForm">
           <label>Name<input type="text" placeholder="Your name" required /></label>
@@ -199,8 +270,8 @@
               <option>Learn about MissionOS</option>
             </select>
           </label>
-          <label>Message<textarea placeholder="Tell us about your mission, pledge, need, or partnership interest..." required></textarea></label>
-          <button class="button" type="submit">Send Message</button>
+          <label>Message<textarea placeholder="Tell us about your mission, need, or partnership interest..." required></textarea></label>
+          <button class="button primary" type="submit">Send Message</button>
           <p id="formMessage" class="form-message"></p>
         </form>
       </div>
@@ -208,16 +279,26 @@
   </main>
 
   <footer class="footer">
-    <div class="container footer-grid">
-      <div><strong>Arukah Missions</strong><p>Organized Compassion. Private Giving. Trusted Impact.</p></div>
+    <div class="container footer-main">
+      <div>
+        <a class="brand footer-brand" href="index.html">
+          <span class="brand-symbol">AM</span>
+          <span><strong>Arukah Missions</strong><small>Healing • Hope • Restoration</small></span>
+        </a>
+        <p>Organized Compassion. Private Giving. Trusted Impact.</p>
+      </div>
       <div class="footer-links">
-        <a href="#mission">Personal Mission</a>
-        <a href="#pledge">Mission Pledge</a>
-        <a href="#privacy">Privacy</a>
+        <a href="#about">About Us</a>
+        <a href="#priorities">Our Priorities</a>
+        <a href="#impact">Impact</a>
+        <a href="#involved">Get Involved</a>
         <a href="missionos.html">MissionOS</a>
       </div>
     </div>
-    <div class="container footer-bottom"><small>© 2026 Arukah Missions. All rights reserved.</small></div>
+    <div class="container footer-bottom">
+      <small>© 2026 Arukah Missions. All rights reserved.</small>
+      <small>Privacy by design. Recipient dignity. Donor humility.</small>
+    </div>
   </footer>
 
   <script src="./script.js"></script>
