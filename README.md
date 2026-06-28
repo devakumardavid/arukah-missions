@@ -1,51 +1,41 @@
-# Arukah Missions GitHub Pages Website
+# Arukah Missions Website v2
 
-This folder is ready for GitHub Pages.
+GitHub Pages-ready static website.
 
-## Files to upload to GitHub
+## Files
 
-Upload these files to the root of your GitHub repository:
+Upload these files to the repository root:
 
 - index.html
+- missionos.html
 - styles.css
 - script.js
 - README.md
 
-Do not upload the outer folder only. The files must be directly visible in the repository root.
+## GitHub Pages
 
-## Publish with GitHub Pages
+Repository name example:
 
-1. Create a public GitHub repository, for example: arukah-missions
-2. Upload all files listed above.
-3. Go to Settings
-4. Go to Pages
-5. Source: Deploy from a branch
-6. Branch: main
-7. Folder: /root
-8. Click Save
+arukah-missions
 
-Your site will be available at:
+Pages URL:
 
-https://YOUR-GITHUB-USERNAME.github.io/arukah-missions/
+https://devakumardavid.github.io/arukah-missions/
 
-## Custom domain later
+MissionOS URL:
 
-If you buy a domain such as arukahmissions.org:
+https://devakumardavid.github.io/arukah-missions/missionos.html
 
-1. In GitHub repository, go to Settings > Pages
-2. Add your custom domain
-3. GitHub creates/uses a file named CNAME
-4. In your domain provider DNS, add:
-   - CNAME record for www pointing to YOUR-GITHUB-USERNAME.github.io
-   - Optional apex records for root domain as per GitHub Pages instructions
+## Setup
 
-## Form note
+1. Create a public GitHub repo.
+2. Upload all files directly to the root.
+3. Go to Settings > Pages.
+4. Source: Deploy from a branch.
+5. Branch: main.
+6. Folder: /root.
+7. Save.
 
-The contact form is demo-only. It does not send email yet.
+## Notes
 
-Easy launch options:
-- Google Forms
-- Airtable Form
-- Formspree
-- Netlify Forms
-- Custom backend later
+The forms are demo-only. Connect them later to Google Forms, Airtable, Formspree, Netlify Forms, or a backend.
